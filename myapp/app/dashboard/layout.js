@@ -4,8 +4,8 @@ import React from 'react'
 const layout = ({children}) => {
   return (
     <div>
-      <Navbar />
-        {children}
+        <Navbar />
+    {children}
     </div>
   )
 }

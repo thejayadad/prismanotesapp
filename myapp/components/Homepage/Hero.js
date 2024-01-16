@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -5,6 +6,9 @@ const Hero = () => {
     <section className='px-4 py-8'>
         <div className=''>
             Hero
+            <Link href={'/login'}>
+                Login
+            </Link>
         </div>
     </section>
   )
